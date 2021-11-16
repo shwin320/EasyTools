@@ -1,0 +1,111 @@
+#media{
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#media:focus{
+	outline: none;
+}
+:fullscreen #media{
+	height: 93vh;
+	width: 100%;
+	object-fit: contain;
+}
+:fullscreen #controls{
+	position: absolute;
+	bottom: 0px;
+	height: 7vh;
+	width: 100%;
+	object-fit: contain;
+}
+:fullscreen #prog{
+	height: .5vh;
+}
+:fullscreen button img{
+	height: 4vh;
+}
+:fullscreen #point{
+	font-size: 2vh;
+}
+select:focus{
+	outline: none;
+}
+option:focus{
+	outline: none;
+}
+input:focus{
+	outline: none;
+}
+img{
+	display: inline;
+	margin: auto;
+	font-family: 'PT Mono', monospace;
+}
+body{
+	background-color: #4939f6;
+}
+h1{
+	color: white;
+	font-size: 100px;
+	height: 100px;
+	display: block;
+	font-family: 'PT Mono', monospace;
+	margin: 0px;
+}
+button{
+	background: none;
+	border: none;
+	outline: none;
+}
+button:hover{
+	opacity: .5;
+}
+label{
+	font-family: 'PT Mono', monospace;
+	color: white;
+}
+#buttons{
+	text-align: justify;
+	display: flex;
+	justify-content: space-between;
+}
+#buttons button{
+	display: inline-block; 
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#buttons span{
+	height: 35px;
+}
+#prog{
+	background-color: white;
+	border-radius: 50px;
+	height: 15px;
+}
+#timeline{
+	font-family: 'PT Mono', monospace;
+	display: flex;
+	justify-content: space-between;
+	width: 100%
+}
+#point{
+	text-align: right;
+	font-size: 15px;
+	height: 15px;
+	margin: 0px;
+	color: white;
+	width: 100%;
+}
+#inter{
+	height: 400px;
+}
+#selector{
+	text-align: justify;
+	display: flex;
+	justify-content: space-between;
+}
+.title{
+	font-size: 20px;
+}
