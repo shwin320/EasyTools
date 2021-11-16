@@ -1,0 +1,22 @@
+#url{
+	width: 300px;
+}
+h1{
+	font-family: Arial;
+	margin-bottom: 0px;
+	font-size: 40px;
+}
+h2{
+	font-family: Arial;
+	margin-top: 0px;
+	font-size: 25px;
+}
+a{
+	font-family: Arial;
+	color: #0066ff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	opacity: 0.5;
+}
