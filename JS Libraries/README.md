@@ -1,5 +1,4 @@
-<h1>EasyTools</h1>
-A collection of JavaScript microlibraries, for programming website features easier.
+<h1>A collection of JavaScript microlibraries, for programming website features easier.</h1>
 <h2>Tools</h2>
 <ul>
   <li><a href="#calc">Calculator</a></li>
